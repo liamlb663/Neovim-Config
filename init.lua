@@ -138,5 +138,7 @@ vim.api.nvim_set_keymap("n", "<leader>t", ":NvimTreeToggle <CR>", {noremap = tru
 vim.g.UltiSnipsExpandTrigger = '<tab>'
 vim.g.UltiSnipsJumpForwardTrigger = '<tab>'
 
+vim.cmd [[source ~/.config/nvim/barbar.vim]]
+
 -- math stuff
 vim.cmd [[source ~/.config/nvim/vimtex.vim]]
