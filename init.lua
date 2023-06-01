@@ -35,6 +35,8 @@ require('packer').startup(function(use)
     use 'nanotee/zoxide.vim'
 end)
 
+vim.cmd [[colorscheme gruvbox]]
+
 --LSP
 require('mason').setup()
 local mason_lspconfig = require('mason-lspconfig')

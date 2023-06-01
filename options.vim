@@ -15,7 +15,7 @@ set number
 set relativenumber
 
 set wildmode=longest,list
-set cc=80
+set cc=80,100
 filetype plugin indent on
 filetype plugin on
 syntax on
@@ -23,5 +23,3 @@ syntax on
 set ttyfast
 
 set noswapfile
-
-colorscheme gruvbox
