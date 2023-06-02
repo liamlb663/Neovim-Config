@@ -33,6 +33,10 @@ require('packer').startup(function(use)
     use 'lervag/vimtex'
 
     use 'nanotee/zoxide.vim'
+
+    use 'nvim-lua/plenary.nvim'
+    use 'kdheepak/lazygit.nvim'
+    use 'mfussenegger/nvim-dap'
 end)
 
 vim.cmd [[colorscheme gruvbox]]
