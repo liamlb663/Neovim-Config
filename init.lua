@@ -137,6 +137,12 @@ require("nvim-tree").setup({
   },
 })
 
+--Remove whitespace with regex magic
+vim.api.nvim_create_autocmd({ "BufWritePre" }, {
+  pattern = { "*" },
+  command = [[%s/\s\+$//e]],
+})
+
 --vim.api.nvim_set_keymap(mode, lhs, rhs, options)
 vim.api.nvim_set_keymap("n", "<leader>t", ":NvimTreeToggle <CR>", {noremap = true})
 
