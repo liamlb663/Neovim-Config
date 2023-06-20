@@ -37,6 +37,8 @@ require('packer').startup(function(use)
     use 'nvim-lua/plenary.nvim'
     use 'kdheepak/lazygit.nvim'
     use 'mfussenegger/nvim-dap'
+
+    use 'mg979/vim-visual-multi'
 end)
 
 vim.cmd [[colorscheme gruvbox]]
