@@ -23,3 +23,11 @@ syntax on
 set ttyfast
 
 set noswapfile
+
+map <C-a> <ESC>^
+imap <C-a> <ESC>I
+map <C-e> <ESC>$
+imap <C-e> <ESC>A
+noremap <C-b> <Esc>B
+inoremap <C-b> <Esc>Bi
+
