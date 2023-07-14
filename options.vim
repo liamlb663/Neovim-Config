@@ -10,6 +10,7 @@ set softtabstop=4
 set expandtab
 set shiftwidth=4
 set autoindent
+set scrolloff=5
 
 set number
 set relativenumber
